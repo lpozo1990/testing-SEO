@@ -3,76 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bienvenido a mi sitio web personal. Aquí encontrarás información sobre mis proyectos y contacto.">
+    <meta name="description" content="Portfolio personal de un desarrollador apasionado. Proyectos, servicios y más.">
     <meta name="google-site-verification" content="i-6kLUJBy0qaIGdjNTOgoZjUADNS32pzcZgrMcFwd3Y" />
-    <title>Mi Website Personal</title>
+    <title>Portfolio de LPozo</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-            color: #333;
-            text-align: center;
-        }
-        header {
-            background: #4CAF50;
-            color: white;
-            padding: 2rem 0;
-        }
-        nav a {
-            margin: 0 15px;
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        section {
-            padding: 2rem;
-        }
-        footer {
-            background: #222;
-            color: #ddd;
-            padding: 1rem 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        @media (max-width: 600px) {
-            nav a {
-                display: block;
-                margin: 10px 0;
-            }
-        }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; text-align: center; }
+        header { background: #4CAF50; color: white; padding: 2rem 0; }
+        nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+        section { padding: 2rem; }
+        footer { background: #222; color: #ddd; padding: 1rem 0; margin-top: 2rem; }
+        .card { background: white; margin: 1rem auto; padding: 1rem; max-width: 600px; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 8px; }
+        @media (max-width: 600px) { nav a { display: block; margin: 10px 0; } }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>¡Bienvenido a Mi Sitio Web!</h1>
+        <h1>¡Bienvenido a Mi Portfolio!</h1>
         <nav>
             <a href="#sobre-mi">Sobre Mí</a>
+            <a href="#servicios">Servicios</a>
             <a href="#proyectos">Proyectos</a>
+            <a href="#blog">Blog</a>
             <a href="#contacto">Contacto</a>
         </nav>
     </header>
 
     <section id="sobre-mi">
         <h2>Sobre Mí</h2>
-        <p>Hola, soy un desarrollador apasionado por la tecnología y la creación de soluciones web.</p>
+        <p>Soy un desarrollador apasionado por la tecnología, especializado en soluciones web y SEO.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <div class="card">
+            <h3>Desarrollo Web</h3>
+            <p>Creación de sitios web modernos, responsivos y optimizados.</p>
+        </div>
+        <div class="card">
+            <h3>Optimización SEO</h3>
+            <p>Mejora la visibilidad de tu sitio en los motores de búsqueda.</p>
+        </div>
     </section>
 
     <section id="proyectos">
-        <h2>Mis Proyectos</h2>
-        <p>Muy pronto compartiré algunos de los proyectos en los que estoy trabajando.</p>
+        <h2>Proyectos Destacados</h2>
+        <p>Pronto compartiré mis proyectos más recientes en desarrollo web y optimización.</p>
+    </section>
+
+    <section id="blog">
+        <h2>Últimas Publicaciones</h2>
+        <div class="card">
+            <h3>Cómo mejorar el SEO de tu sitio en 2025</h3>
+            <p>Consejos prácticos para posicionarte mejor en Google.</p>
+        </div>
+        <div class="card">
+            <h3>Mis herramientas favoritas de desarrollo</h3>
+            <p>Explora las herramientas que uso en mi día a día como dev.</p>
+        </div>
     </section>
 
     <section id="contacto">
         <h2>Contacto</h2>
-        <p>Puedes encontrarme en <a href="https://github.com/tuusuario" target="_blank">GitHub</a> o escribirme a tuemail@example.com.</p>
+        <p>Encuéntrame en <a href="https://github.com/lpozo1990" target="_blank">GitHub</a> o escríbeme a lpozo1990@example.com.</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Mi Website. Todos los derechos reservados.</p>
+        <p>&copy; 2025 LPozo Portfolio. Todos los derechos reservados.</p>
     </footer>
 
 </body>
