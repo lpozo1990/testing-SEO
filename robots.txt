@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lpozo1990.github.io/testing-SEO/sitemap.xml
